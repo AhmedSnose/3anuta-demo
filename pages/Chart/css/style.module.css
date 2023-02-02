@@ -1,0 +1,13 @@
+.chartConatiner {
+display: flex;
+justify-content: center;
+max-width: 33rem;
+}
+
+.chartConatiner canvas {
+   max-width: 20rem;
+}
+
+/* .chartConatiner td {
+   max-width: 20rem;
+} */

@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@date-io/jalaali": "^2.16.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.15",
+    "@mui/x-date-pickers": "^5.0.10",
+    "@prisma/client": "^4.7.1",
+    "@reduxjs/toolkit": "^1.9.0",
+    "chart.js": "^3.9.1",
+    "chartjs-plugin-datalabels": "^2.0.0-rc.1",
+    "dayjs": "^1.11.7",
+    "firebase": "^9.15.0",
+    "firebase-admin": "^11.3.0",
+    "formik": "^2.2.9",
+    "next": "^12.3.4",
+    "postcss-cli": "^10.1.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "^3.3.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-toastify": "^8.2.0",
+    "redux-persist": "^6.0.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^9.8.8",
+    "eslint": "^8.30.0",
+    "eslint-config-next": "^13.0.7",
+    "postcss": "^8.4.20",
+    "prisma": "^4.7.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.8.4"
+  }
+}

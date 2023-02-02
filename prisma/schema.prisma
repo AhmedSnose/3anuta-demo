@@ -1,0 +1,31 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+
+model Employees {
+  id Int @id @default(autoincrement())
+  arabicName String? 
+  englishName String?
+  mobileNumber Int? 
+  identificationNumber Int?
+  email String?
+  employeeType String?
+  isActive Boolean @default(true)
+  createdAt  DateTime   @default(now())
+
+}
+
+model Agents {
+  id Int @id @default(autoincrement())
+  agentName String
+  mobileNumber String
+  identificationNumber String
+  isActive Boolean @default(true)
+  createdAt  DateTime   @default(now())
+}

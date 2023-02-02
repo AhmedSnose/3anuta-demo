@@ -1,0 +1,15 @@
+/* ./app/global.css */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+td , th{
+    text-align: center !important;
+}
+
+th {
+    white-space: nowrap
+}
